@@ -1,0 +1,182 @@
+.nome_topo {
+    color: #F68635;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 45px;
+}
+
+.linha {
+    background-color: #F68635;
+    width: 5px;
+    height: 70px;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+
+.container_nome {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: start;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-left: 35px;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+}
+
+
+.infoGestores {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.infoGestores img {
+    height: 200px;
+    width: 250px;
+}
+
+.linha2 {
+    background-color: #185235;
+    width: 5px;
+    height: 120px;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+.infoAbaixo {
+    display: flex;
+    flex-direction: column;
+}
+
+.infoAbaixo1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.infoGestores .infoAbaixo {
+    color: #185235;
+
+}
+
+.nomeGestor {
+    margin-top: 50px;
+    margin-left: 15px;
+    font-size: 36px;
+    line-height: 23px;
+}
+
+.nomeGestor1 {
+    margin-left: 20px;
+    font-size: 25px;
+    margin-top: -40%;
+    margin-left: 35px;
+}
+
+.infoGestores,
+.infoAbaixo,
+.infoAbaixo1 {
+    border-radius: 10%;
+}
+
+.infoAbaixo{
+    margin-bottom: 25px;
+}
+
+.infoGestores{
+    width:auto;
+}
+
+.containerProfs{
+    display: flex;
+    flex-direction: row;
+}
+
+.laranjaBack{
+    width: 180px;
+    height: 240px;
+    border: 3px solid #F68635;
+    margin-left: 130px;
+    margin-top: 40px;
+    border-radius: 25px;
+    align-content: center;
+}
+
+.corBack img {
+    width: 125px;
+    height: 190px;
+    position: relative;
+    left: 10%;
+}
+
+.corBack {
+    background-color: #F8F0F0;
+    position: relative;
+    left: -2%;
+    top: 5%;
+    width: 165px;
+    height: 220px;
+    align-content: center;
+    border-radius: 25px;
+}
+
+.linhaProf{
+    margin-left: 15px;
+    height: 75px;
+    margin-top: 40px;
+    width: 6px;
+    background-color: #185235;
+}
+    
+.containerNomeProf{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10%;
+}
+
+.nomeProf{
+    color: #185235;
+    font-size: 35px;
+    margin-left: 20px;
+    text-align: center;
+    margin-top: 45px;
+}
+
+hr{
+    border: none;
+}
+
+.infors{
+    display: flex;
+    flex-direction: row;
+}
+
+.infors1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.restoInfo {
+    color: #183225;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.cargo{
+    display: flex;
+    flex-direction: row;
+}

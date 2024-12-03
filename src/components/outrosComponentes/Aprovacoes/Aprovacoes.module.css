@@ -1,0 +1,330 @@
+.aprovacoes_container {
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: -1rem;
+    margin-top: 4rem;
+    background: linear-gradient(to right, #0f3326, #194e39);
+}
+
+.linha_aprov .aprovacoes_titulo {
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+}
+
+.aprovacoes_titulo {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.carrossel_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.seta {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+.grid_container {
+    display: flex;
+    gap: 1rem;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.card {
+    padding: 1rem;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 100%;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img:hover {
+    animation: arrendondar forwards 400ms;
+}
+
+@keyframes arrendondar {
+    from {
+        border-radius: 4px;
+    }
+
+    to {
+        border-radius: 50%;
+    }
+}
+
+
+.card img {
+    width: 119%;
+    max-width: 250px;
+    height: 228px;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.card_nome {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: rgb(255, 255, 255);
+}
+
+.card_curso {
+    font-size: 0.9rem;
+    color: #ffffff;
+}
+
+.linha_aprov {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.indicadores {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.indicador {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    margin: 0 5px;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+.indicador.active {
+    opacity: 1;
+    background-color: #fff;
+}
+
+@media (max-width: 1024px) {
+    .grid_container {
+        gap: 0.5rem;
+    }
+
+    .grid_container .card {
+        max-width: 180px;
+    }
+}
+
+@media (max-width: 768px) {
+    .grid_container {
+        gap: 0.5rem;
+    }
+
+    .grid_container .card {
+        max-width: 150px;
+    }
+
+    .carrossel_container {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px) {
+    .grid_container {
+        gap: 0.5rem;
+        flex-direction: column;
+    }
+
+    .grid_container .card {
+        max-width: 300px;
+    }
+
+    .carrossel_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .seta {
+        margin: 0.5rem 0;
+    }
+}
+
+
+.nome_topo {
+    color: #F68635;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 45px;
+}
+
+.linha {
+    background-color: #F68635;
+    width: 5px;
+    height: 70px;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+
+.container_nome {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: start;
+    margin-bottom: 50px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 40px;
+    flex-wrap: wrap;
+}
+
+.nome_topo {
+    color: #F68635;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 45px;
+}
+
+.linha {
+    background-color: #F68635;
+    width: 5px;
+    height: 70px;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+
+.container_nome {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: start;
+}
+
+.infoAlunos {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.infoAlunos img {
+    height: 200px;
+    width: 250px;
+}
+
+.linha2 {
+    background-color: #F68635;
+    width: 5px;
+    height: 120px;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+.infoAbaixo {
+    display: flex;
+    flex-direction: column;
+}
+
+.infoAbaixo1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.infoAlunos .infoAbaixo {
+    color: #185235;
+}
+
+.nomeDev {
+    margin-top: 30px;
+    margin-left: 15px;
+    font-size: 22px;
+    line-height: 23px;
+}
+
+.nomeDev1 {
+    margin-left: 20px;
+    font-size: 17px;
+    margin-top: -30%;
+    margin-left: 35px;
+}
+
+.btnLinkedin {
+    background-color: #F68635;
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 33px;
+}
+
+.infoAlunos,
+.infoAbaixo,
+.infoAbaixo1 {
+    background-color: #EDEAEA;
+    border-radius: 10%;
+}
+
+.infoAbaixo{
+    margin-bottom: 25px;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown_menu {
+    display: none;
+    position: absolute;
+    background: linear-gradient(to right, #0f3326, #194e39);
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    width: 160px;
+  }
+  
+  .dropdown_menu li {
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .dropdown_menu li:hover {
+    background: linear-gradient(to right, #162e26, #1f5a39);
+
+  }
+  
+  .dropdown:hover .dropdown_menu {
+    display: block;
+  }
+  
+.mdb{
+    display: flex;
+    color: #F68635;
+    margin-bottom: -50px;
+    margin-left: 19%;
+    text-align: center;
+    place-self: center;
+    margin-left: -10%;
+}

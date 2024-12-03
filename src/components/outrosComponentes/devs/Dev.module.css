@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 430px 430px 430px;
+    gap: 0px;
+    margin-left: 20px;
+}
+
+.nome_topo {
+    color: #F68635;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 45px;
+}
+
+.linha {
+    background-color: #F68635;
+    width: 5px;
+    height: 70px;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+
+.container_nome {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: start;
+}
+
+.infoAlunos {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.infoAlunos img {
+    height: 200px;
+    width: 250px;
+}
+
+.linha2 {
+    background-color: #F68635;
+    width: 5px;
+    height: 120px;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+.infoAbaixo {
+    display: flex;
+    flex-direction: column;
+}
+
+.infoAbaixo1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.infoAlunos .infoAbaixo {
+    color: #185235;
+}
+
+.nomeDev {
+    margin-top: 30px;
+    margin-left: 15px;
+    font-size: 22px;
+    line-height: 23px;
+}
+
+.nomeDev1 {
+    margin-left: 20px;
+    font-size: 17px;
+    margin-top: -30%;
+    margin-left: 35px;
+}
+
+.btnLinkedin {
+    background-color: #F68635;
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 33px;
+}
+
+.infoAlunos,
+.infoAbaixo,
+.infoAbaixo1 {
+    background-color: #EDEAEA;
+    border-radius: 10%;
+}
+
+.infoAbaixo {
+    margin-bottom: 25px;
+}

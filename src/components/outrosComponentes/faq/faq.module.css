@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Titulozin {
+    color: #F68635;
+    font-size: 35px;
+}
+
+.barra_lateral {
+    color: #F68635;
+    height: 55px;
+    width: 4px;
+    margin-right: 10px;
+    margin-left: 100px;
+    background-color: #F68635;
+    background: #F68635;
+}
+
+.barra_lateralInt {
+    color: #F68635;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 20px;
+    margin-right: 50px;
+    margin-left: 20px;
+    background-color: #F68635;
+    background: #F68635;
+}
+
+.pageContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.pf {
+    display: flex;
+    flex-direction: row;
+}
+
+.labelperguntas {
+    background-color: #EBE9E9;
+    height: 200px;
+    width: 1000px;
+    margin-left: 100px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.labelperguntas img {
+    width: 110px;
+    height: 110px;
+    align-self: center;
+    margin-left: 50px;
+}
+
+.resposta {
+    color: #000000;
+
+}
+
+.pergunta {
+    color: #F68635;
+
+}
+
+.slaman {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+.slaman1 {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    gap: 6px;
+}
+
+ul li .Idelistinha {
+    color: #F68635;
+    font-weight: bold;
+    font-size: 16px;
+    list-style: circle;
+}
+
+.barra_lateralInt2 {
+    color: #F68635;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 4px;
+    margin-right: 50px;
+    margin-left: 20px;
+    background-color: #F68635;
+    background: #F68635;
+}
+
+.labelperguntas1 {
+    background-color: #ffff;
+    height: 200px;
+    width: 1000px;
+    margin-left: 100px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.labelperguntas1 img {
+    width: 110px;
+    height: 110px;
+    align-self: center;
+    margin-left: 50px;
+}
+
+.labelperguntas2 {
+    background-color: #EBE9E9;
+    height: 200px;
+    width: 1000px;
+    margin-left: 100px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.labelperguntas2 img {
+    width: 110px;
+    height: 110px;
+    align-self: center;
+    margin-left: 50px;
+}
+
+.labelperguntas:nth-child(odd),
+.labelperguntas1:nth-child(odd),
+.labelperguntas2:nth-child(odd) {
+    background-color: #EBE9E9;
+}
+
+.labelperguntas:nth-child(even),
+.labelperguntas1:nth-child(even),
+.labelperguntas2:nth-child(even) {
+    background-color: #ffffff;
+}

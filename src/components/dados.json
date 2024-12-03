@@ -1,0 +1,465 @@
+{
+    "Pages":{
+        "body": {
+            "listaBody":[
+                {
+                    "img":"/assets/Lucia Baltazar.png",
+                    "legenda":"Conheça um pouco da história da EEEP Lúcia Baltazar Costa - Limoeiro"
+                },
+                {
+                    "img": "/assets/temp1.jpg", 
+                    "legenda": "Diretor de escola profissional explica em entrevista sobre o funcionamento do processo seletivo"
+                },
+                {
+                    "img": "/assets/temp2.jpg",
+                    "legenda": "Cayo Robson (Diretor de Turma de ADM III) se torna coordenador da EEEP Lúcia Baltazar Costa"
+                }
+            ]
+        },
+        "aprovAdm":{
+            "alunos":[
+                {
+                    "nome": "Sofia Andrade",
+                    "curso": "Adiministração",
+                    "foto": "/assets/rock.jpg"
+                },
+                {
+                    "nome": "Sofia Andrade",
+                    "curso": "Adiministração",
+                    "foto": "/assets/deadpool.jpeg"
+                },
+                {
+                    "nome": "Sofia Andrade",
+                    "curso": "Adiministração",
+                    "foto": "/assets/john wick.webp"
+                },
+                {
+                    "nome": "Sofia Andrade",
+                    "curso": "Adiministração",
+                    "foto": "/assets/lara croft.jpg"
+                },
+                {
+                    "nome": "Sofia Andrade",
+                    "curso": "Adiministração",
+                    "foto": "/assets/sória.avif"
+                }
+            ]
+        },
+        "melhoresMesAdm": {
+            "alunos":[
+                {
+                    "nome": "Sofia Andrade",
+                    "curso": "Adiministração",
+                    "foto": "/assets/rock.jpg"
+                },
+                {
+                    "nome": "Sofia Andrade",
+                    "curso": "Adiministração",
+                    "foto": "/assets/deadpool.jpeg"
+                },
+                {
+                    "nome": "Sofia Andrade",
+                    "curso": "Adiministração",
+                    "foto": "/assets/john wick.webp"
+                },
+                {
+                    "nome": "Sofia Andrade",
+                    "curso": "Adiministração",
+                    "foto": "/assets/lara croft.jpg"
+                },
+                {
+                    "nome": "Sofia Andrade",
+                    "curso": "Adiministração",
+                    "foto": "/assets/sória.avif"
+                },
+                {
+                    "nome": "Sofia Andrade",
+                    "curso": "Adiministração",
+                    "foto": "/assets/rock.jpg"
+                },
+                {
+                    "nome": "Sofia Andrade",
+                    "curso": "Adiministração",
+                    "foto": "/assets/deadpool.jpeg"
+                },
+                {
+                    "nome": "Sofia Andrade",
+                    "curso": "Adiministração",
+                    "foto": "/assets/john wick.webp"
+                },
+                {
+                    "nome": "Sofia Andrade",
+                    "curso": "Adiministração",
+                    "foto": "/assets/lara croft.jpg"
+                }
+            ]
+        },
+        "aprovEdf":{
+            "alunos":[
+                {
+                    "nome": "Liandro Chaves",
+                    "curso": "Edificações",
+                    "foto": "/assets/rock.jpg"
+                },
+                {
+                    "nome": "Nalyson Costa", 
+                    "curso": "Edificações", 
+                    "foto": "/assets/deadpool.jpeg"
+                },
+                {
+                    "nome": "Hermeson Daniel",
+                    "curso": "Edificações",
+                    "foto": "/assets/john wick.webp"
+                },
+                {
+                    "nome": "Gessica Paula",
+                    "curso": "Edificações",
+                    "foto": "/assets/sória.avif"
+                },
+                {
+                    "nome": "Amanda Ketlyn",
+                    "curso": "Edificações",
+                    "foto": "/assets/lara croft.jpg"
+                }
+            ]
+        },
+        "aprovMelhoresEdf":{
+            "alunos":[
+                {
+                    "nome": "Liandro Chaves",
+                    "curso": "Edificações",
+                    "foto": "/assets/rock.jpg"
+                },
+                {
+                    "nome": "Nalyson Costa", 
+                    "curso": "Edificações", 
+                    "foto": "/assets/deadpool.jpeg"
+                },
+                {
+                    "nome": "Hermeson Daniel",
+                    "curso": "Edificações",
+                    "foto": "/assets/john wick.webp"
+                },
+                {
+                    "nome": "Gessica Paula",
+                    "curso": "Edificações",
+                    "foto": "/assets/sória.avif"
+                },
+                {
+                    "nome": "Amanda Ketlyn",
+                    "curso": "Edificações",
+                    "foto": "/assets/lara croft.jpg"
+                },
+                {
+                    "nome": "Gessica Paula",
+                    "curso": "Edificações",
+                    "foto": "/assets/sória.avif"
+                },
+                {
+                    "nome": "Amanda Ketlyn",
+                    "curso": "Edificações",
+                    "foto": "/assets/lara croft.jpg"
+                }
+            ]
+        },
+        "aprovMasso":{
+            "alunos":[
+                {
+                    "nome": "Liandro Chaves",
+                    "curso": "Massoterapia",
+                    "foto": "/assets/rock.jpg"
+                },
+                {
+                    "nome": "Nalyson Costa", 
+                    "curso": "Massoterapia", 
+                    "foto": "/assets/deadpool.jpeg"
+                },
+                {
+                    "nome": "Hermeson Daniel",
+                    "curso": "Massoterapia",
+                    "foto": "/assets/john wick.webp"
+                },
+                {
+                    "nome": "Gessica Paula",
+                    "curso": "Massoterapia",
+                    "foto": "/assets/sória.avif"
+                },
+                {
+                    "nome": "Amanda Ketlyn",
+                    "curso": "Massoterapia",
+                    "foto": "/assets/lara croft.jpg"
+                }
+            ]
+        },
+        "aprovMelhoresMasso":{
+            "alunos":[
+                {
+                    "nome": "Liandro Chaves",
+                    "curso": "Massoterapia",
+                    "foto": "/assets/rock.jpg"
+                },
+                {
+                    "nome": "Nalyson Costa", 
+                    "curso": "Massoterapia", 
+                    "foto": "/assets/deadpool.jpeg"
+                },
+                {
+                    "nome": "Hermeson Daniel",
+                    "curso": "Massoterapia",
+                    "foto": "/assets/john wick.webp"
+                },
+                {
+                    "nome": "Gessica Paula",
+                    "curso": "Massoterapia",
+                    "foto": "/assets/sória.avif"
+                },
+                {
+                    "nome": "Amanda Ketlyn",
+                    "curso": "Massoterapia",
+                    "foto": "/assets/lara croft.jpg"
+                },
+                {
+                    "nome": "Gessica Paula",
+                    "curso": "Massoterapia",
+                    "foto": "/assets/sória.avif"
+                },
+                {
+                    "nome": "Amanda Ketlyn",
+                    "curso": "Massoterapia",
+                    "foto": "/assets/lara croft.jpg"
+                }
+            ]
+        },
+        "gestao":{
+            "gestores":[
+                {
+                    "nome": "xpto",
+                    "foto": "/assets/rock.jpg",
+                    "area": "frontend"
+                },
+                {
+                    "nome": "xpto",
+                    "foto": "/assets/rock.jpg",
+                    "area": "frontend"
+                },
+                {
+                    "nome": "xpto",
+                    "foto": "/assets/rock.jpg",
+                    "area": "frontend"
+                },
+                {
+                    "nome": "xpto",
+                    "foto": "/assets/rock.jpg",
+                    "area": "frontend"
+                },
+                {
+                    "nome": "xpto",
+                    "foto": "/assets/rock.jpg",
+                    "area": "frontend"
+                }
+            ],
+            "professores": [
+                {
+                    "foto": "/assets/rock.jpg",
+                    "nome": "Tatiana",
+                    "cargo": "Biologa" ,
+                    "formacao":"Mestrado em biologia"
+                },
+                {
+                    "foto": "/assets/rock.jpg",
+                    "nome": "Tatiana",
+                    "cargo": "Biologa" ,
+                    "formacao":"Mestrado em biologia"
+                },
+                {
+                    "foto": "/assets/rock.jpg",
+                    "nome": "Tatiana",
+                    "cargo": "Biologa" ,
+                    "formacao":"Mestrado em biologia"
+                },
+                {
+                    "foto": "/assets/rock.jpg",
+                    "nome": "Tatiana",
+                    "cargo": "Biologa" ,
+                    "formacao":"Mestrado em biologia"
+                }
+            ]
+        },
+        "faq": {
+            "perre": [
+                {
+                    "pergunta":"Porque escolher a EEEP Lúcia Baltazar Costa",
+                    "resposta":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem atque architecto corrupti veniam nobis reiciendis pariatur dicta quia ea similique quas numquam, soluta, et iure, aliquid magni asperiores quisquam vel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum minus in accusamus, itaque, ratione commodi molestiae vel sapiente temporibus reprehenderit incidunt dolore ut, neque eaque placeat. Itaque laboriosam repudiandae eaque."
+                },
+                {
+                    "pergunta":"Porque escolher a EEEP Lúcia Baltazar Costa",
+                    "resposta":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem atque architecto corrupti veniam nobis reiciendis pariatur dicta quia ea similique quas numquam, soluta, et iure, aliquid magni asperiores quisquam vel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum minus in accusamus, itaque, ratione commodi molestiae vel sapiente temporibus reprehenderit incidunt dolore ut, neque eaque placeat. Itaque laboriosam repudiandae eaque."
+                }
+            ],
+            "branca": [
+                {
+                    "pergunta":"Porque escolher a EEEP Lúcia Baltazar Costa",
+                    "resposta":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem atque architecto corrupti veniam nobis reiciendis pariatur dicta quia ea similique quas numquam, soluta, et iure, aliquid magni asperiores quisquam vel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum minus in accusamus, itaque, ratione commodi molestiae vel sapiente temporibus reprehenderit incidunt dolore ut, neque eaque placeat. Itaque laboriosam repudiandae eaque."
+                },
+                {
+                    "pergunta":"Porque escolher a EEEP Lúcia Baltazar Costa",
+                    "resposta":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem atque architecto corrupti veniam nobis reiciendis pariatur dicta quia ea similique quas numquam, soluta, et iure, aliquid magni asperiores quisquam vel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum minus in accusamus, itaque, ratione commodi molestiae vel sapiente temporibus reprehenderit incidunt dolore ut, neque eaque placeat. Itaque laboriosam repudiandae eaque."
+                }   
+            ],
+            "lista":[
+                {
+                    "pergunta":"Quais são os cursos disponíveis?",
+                    "resposta1":"Administração",
+                    "resposta2":"Desenvolvimento de Sistemas",
+                    "resposta3":"Edificações",
+                    "resposta4":"Massoterapia"
+                },
+                {
+                    "pergunta":"Quais são os cursos disponíveis?",
+                    "resposta1":"Administração",
+                    "resposta2":"Desenvolvimento de Sistemas",
+                    "resposta3":"Edificações",
+                    "resposta4":"Massoterapia"
+                }
+            ]
+            
+        },
+        "aprov":{
+            "alunos":[
+                {
+                    "nome":"Liandro Chaves",
+                    "curso":"Des. de Sistemas",
+                    "foto":"/assets/rock.jpg"
+                },
+                {
+                    "nome":"Nalyson Costa",
+                    "curso":"Des. de Sistemas",
+                    "foto":"/assets/deadpool.jpeg"
+                },
+                {
+                    "nome":"Natanael Sombra",
+                    "curso":"Administração",
+                    "foto":"/assets/john wick.webp"
+                },
+                {
+                    "nome":"Hermeson Daniel",
+                    "curso":"Des. de Sistemas",
+                    "foto":"/assets/rock.jpg"
+                },
+                {
+                    "nome":"Gessica Paula",
+                    "curso":"Massoterapia",
+                    "foto":"/assets/sória.avif"
+                },
+                {
+                    "nome":"Amanda Ketlyn",
+                    "curso":"Edificações",
+                    "foto":"/assets/lara croft.jpg"
+                },
+                {
+                    "nome":"Sofia Andrade",
+                    "curso":"administração",
+                    "foto":"/assets/lara croft.jpg"
+                },
+                {
+                    "nome":"Marcos Salgado",
+                    "curso":"Edificações",
+                    "foto":"/assets/rock.jpg"
+                }
+
+            ],
+            "melhoresDoMes":[
+                { "nome": "Liandro Chaves", "curso": "Des. de Sistemas", "foto": "/assets/rock.jpg" },
+                { "nome": "Liandro Chaves", "curso": "Des. de Sistemas", "foto": "/assets/rock.jpg" },
+                { "nome": "Nalyson Costa", "curso": "Des. de Sistemas", "foto": "/assets/deadpool.jpeg" },
+                { "nome": "Natanael Sombra", "curso": "administração", "foto": "/assets/john wick.webp" },
+                { "nome": "Hermeson Daniel", "curso": "Des. de Sistemas", "foto": "/assets/rock.jpg" },
+                { "nome": "Gessica Paula", "curso": "Massoterapia", "foto":"/assets/sória.avif" },
+                { "nome": "Amanda Ketlyn", "curso": "Edificações", "foto": "/assets/lara croft.jpg" },
+                { "nome": "Sofia Andrade", "curso": "administração", "foto": "/assets/lara croft.jpg" },
+                { "nome": "Marcos Salgado", "curso": "Edificações", "foto": "/assets/rock.jpg" }
+            ]
+        },
+        "aprovdds":{
+            "alunos":[
+                { "nome": "Liandro Chaves", "curso": "Des. de Sistemas", "foto": "/assets/rock.jpg" },
+                { "nome": "Nalyson Costa", "curso": "Des. de Sistemas", "foto": "/assets/deadpool.jpeg" },
+                { "nome": "Dyvani Gabriel", "curso": "Des. de Sistemas", "foto": "/assets/sória.avif" },
+                { "nome": "Hermeson Daniel", "curso": "Des. de Sistemas", "foto": "/assets/rock.jpg"},
+                { "nome": "Jhonata Bandeira", "curso": "Des. de Sistemas", "foto": "/assets/deadpool.jpeg" },
+                { "nome": "Kennedy Andresson", "curso": "Des. de Sistemas", "foto": "/assets/john wick.webp" },
+                { "nome": "Maria Grazivane", "curso": "Des. de Sistemas", "foto": "/assets/lara croft.jpg" }
+            ],
+            "melhoresDoMesDds":[
+                { "nome": "Liandro Chaves", "curso": "Des. de Sistemas", "foto": "/assets/rock.jpg" },
+                { "nome": "Nalyson Costa", "curso": "Des. de Sistemas", "foto": "/assets/deadpool.jpeg" },
+                { "nome": "Natanael Sombra", "curso": "Des. de Sistemas", "foto": "/assets/john wick.webp" },
+                { "nome": "Natanael Sombra", "curso": "Des. de Sistemas", "foto": "/assets/john wick.webp" },
+                { "nome": "Hermeson Daniel", "curso": "Des. de Sistemas", "foto": "/assets/rock.jpg" },
+                { "nome": "Gessica Paula", "curso": "Des. de Sistemas", "foto": "/assets/sória.avif" },
+                { "nome": "Amanda Ketlyn", "curso": "Des. de Sistemas", "foto": "/assets/lara croft.jpg" },
+                { "nome": "Sofia Andrade", "curso": "Des. de Sistemas", "foto": "/assets/lara croft.jpg" },
+                { "nome": "Marcos Salgado", "curso": "Des. de Sistemas", "foto": "/assets/rock.jpg" }
+            ]
+            
+        },
+        "noticia":{
+            "noticias":[
+                {
+                    "data": "09 DE AGOSTO DE 2024", 
+                    "titulo": "Conheça um pouco da história da EEEP Lúcia Baltazar Costa - Limoeiro",
+                    "noticia": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque totam atque dolorum consequuntur delectus aliquid est eos a, id saepe ex officia, deleniti sed! Maxime quidem modi mollitia eaque labore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quam dicta recusandae debitis repellat impedit ut quisquam iste cum reiciendis fugiat quas dignissimos consequuntur praesentium numquam, ullam veritatis maxime quod!"
+                },
+                {
+                    "data": "09 DE AGOSTO DE 2024", 
+                    "titulo": "Conheça um pouco da história da EEEP Lúcia Baltazar Costa - Limoeiro",
+                    "noticia": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque totam atque dolorum consequuntur delectus aliquid est eos a, id saepe ex officia, deleniti sed! Maxime quidem modi mollitia eaque labore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quam dicta recusandae debitis repellat impedit ut quisquam iste cum reiciendis fugiat quas dignissimos consequuntur praesentium numquam, ullam veritatis maxime quod!"
+                },
+                {
+                    "data": "09 DE AGOSTO DE 2024", 
+                    "titulo": "Conheça um pouco da história da EEEP Lúcia Baltazar Costa - Limoeiro",
+                    "noticia": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque totam atque dolorum consequuntur delectus aliquid est eos a, id saepe ex officia, deleniti sed! Maxime quidem modi mollitia eaque labore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quam dicta recusandae debitis repellat impedit ut quisquam iste cum reiciendis fugiat quas dignissimos consequuntur praesentium numquam, ullam veritatis maxime quod!"
+                },
+                {
+                    "data": "09 DE AGOSTO DE 2024", 
+                    "titulo": "Conheça um pouco da história da EEEP Lúcia Baltazar Costa - Limoeiro",
+                    "noticia": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque totam atque dolorum consequuntur delectus aliquid est eos a, id saepe ex officia, deleniti sed! Maxime quidem modi mollitia eaque labore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quam dicta recusandae debitis repellat impedit ut quisquam iste cum reiciendis fugiat quas dignissimos consequuntur praesentium numquam, ullam veritatis maxime quod!"
+                }
+            ]
+        },
+        "dev":{
+            "devs":[
+                {
+                    "foto": "/assets/liandro.png",
+                    "nome": "Liandro da Silva Chaves",
+                    "area": "Front-End / Back-End" 
+                },
+                {
+                    "foto": "/assets/danielV.png",
+                    "nome": "Daniel Vitor Mano de Oliveira",
+                    "area": "Front-End / Back-End" 
+                },
+                {
+                    "foto": "/assets/rock.jpg",
+                    "nome": "xpto",
+                    "area": "Front-End" 
+                },
+                {
+                    "foto": "/assets/rock.jpg",
+                    "nome": "xpto",
+                    "area": "Front-End" 
+                },
+                {
+                    "foto": "/assets/rock.jpg",
+                    "nome": "xpto",
+                    "area": "Front-End" 
+                },
+                {
+                    "foto": "/assets/rock.jpg",
+                    "nome": "xpto",
+                    "area": "Front-End" 
+                }
+            ]
+        }
+    }
+}

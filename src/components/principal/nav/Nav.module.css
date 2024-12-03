@@ -1,0 +1,78 @@
+/* src/components/Nav.module.css */
+
+.container {
+  display: flex;
+  justify-content:start;
+  align-items: center;
+  height: 60px;
+}
+
+
+.btn_aluno {
+  margin-left: 30px;
+}
+
+.btn_aluno ,
+.btn_professor  {
+  margin-left: 30px;
+  width: 200px;
+  padding: 5px 0;
+  font-size: 1rem;
+  color: white;
+  background-color: #1f5a39;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.btn_aluno:hover {
+  background: linear-gradient(to right, #162e26, #1f5a39);
+}
+
+.btn_professor:hover {
+  background: linear-gradient(to right, #162e26, #1f5a39);
+}
+
+.linha_verde {
+  background-color: #162e26;
+  height: 12px;
+}
+
+.imgVetor {
+  position: relative;
+  width: 100vw;
+  height: 30px;
+  top: -2px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    grid-template-columns: 250px 250px;
+  }
+
+  .btn_aluno,
+  .btn_professor {
+    grid-column: span 1;
+    justify-content: flex-start;
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+    justify-content: space-around;
+    align-items: self-start;
+  }
+
+  .btn_aluno,
+  .btn_professor {
+    width: 200px;
+  }
+}

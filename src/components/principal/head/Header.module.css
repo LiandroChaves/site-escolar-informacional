@@ -1,0 +1,273 @@
+/* src/components/Header.module.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container {
+  display: grid;
+  grid-template-columns: 100px 2fr 200px 150px 100px;
+  align-items: center;
+  background: linear-gradient(to right, #162e26, #1f5a39);
+  padding: 1rem 2rem;
+  color: white;
+  width: 100%;
+  gap: 1rem;
+}
+
+.logoELinha {
+  display: flex;
+  align-items: center;
+}
+
+.linhaVerticalGrande {
+  background-color: #fff;
+  width: 2px;
+  height: 70px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.logoEscola {
+  width: 80px;
+  height: 80px;
+}
+
+.infoEscola {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.infoEscola h2 {
+  margin: 0;
+  font-family: "Jost", sans-serif;
+}
+
+.seducContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.seducContainer h4 {
+  margin: 0;
+  margin-right: 10px;
+}
+
+.logoSeduc {
+  width: 206px;
+  height: 36px;
+}
+
+.logoCe {
+  width: 206px;
+  height: 36px;
+  margin-left: -3rem;
+}
+
+.linhaVerticalPequena {
+  background-color: #fff;
+  width: 2px;
+  height: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.cadastro{
+  margin-right: 10px;
+} 
+
+.cadastro,
+.login,
+.menu {
+  text-align: center;
+  position: relative;
+}
+
+.login{
+  width: 100px;
+}
+
+.menu{
+  margin-right: 25px;
+}
+
+.cadastro h3,
+.login h3,
+.menu h3 {
+  margin: 0;
+  font-size: 1.3rem;
+  font-family: "Jost", sans-serif;
+}
+
+.linha_laranja {
+  grid-column: 1 / -1;
+  width: calc(100% + 4rem);
+  height: 3px;
+  background-color: #F58634;
+  margin-top: 10px;
+  border: none;
+  transform: translateX(-2rem);
+}
+
+.menu h3 {
+  margin: 0;
+  font-size: 2.0rem;
+  padding: 0;
+}
+
+.cadastro::after {
+  content: "";
+  display: block;
+  background: #F58634;
+  height: 3px;
+  width: 0;
+  position: absolute;
+  bottom: -5px;
+  left: 0px;
+  transition: width 0.3s ease-in-out;
+}
+
+.cadastro:hover::after {
+  width: 100%;
+}
+
+.login::after {
+  content: "";
+  display: block;
+  background: #F58634;
+  height: 3px;
+  width: 0;
+  position: absolute;
+  bottom: -5px;
+  left: 0%;
+  transition: width 0.3s ease-in-out;
+}
+
+.login:hover::after {
+  width: 100%;
+}
+
+.login:hover,
+.cadastro:hover,
+.menu:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    grid-template-columns: 80px 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 80px 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    grid-template-columns: 80px 1fr 1fr;
+  }
+
+  .seducContainer {
+    display: none;
+  }
+
+  .linhaVerticalPequena {
+    display: none;
+  }
+
+  .infoEscola {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    grid-template-columns: 80px 1fr;
+  }
+
+  .infoEscola {
+    display: none;
+  }
+}
+
+.barra_lat {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 250px;
+  height: 100%;
+  background: linear-gradient(to left, #162e26, #1f5a39);
+  color: white;
+  padding: 1rem;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  transform: translateX(0);
+  transition: transform 0.3s ease-in-out;
+  animation: animAbrir 1s forwards;
+}
+
+@keyframes animAbrir {
+  from {
+    width: 0px;
+  }
+
+  to {
+    width: 250px;
+  }
+}
+
+.barra_lat nav ul {
+  list-style: none;
+  padding: 0;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+
+.barra_lat nav ul li {
+  margin: 0.8rem 0;
+  padding-left: 5px;
+  border-bottom: 2px solid transparent;
+}
+
+.barra_lat nav ul li:hover {
+    border-bottom: 2px solid #F58634;
+    animation: paraOLado 0.3s forwards;
+    display: flex;
+    white-space: nowrap;
+}
+
+@keyframes paraOLado{
+  from {
+    width: 0;
+  }
+  to {
+    width: 150px;
+  }
+}
+
+.barra_lat nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.btn_fechar {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  top: 1.2rem;
+  right: -1rem;
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .barra_lat {
+    width: 65%;
+  }
+}

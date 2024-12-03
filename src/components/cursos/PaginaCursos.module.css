@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pageContent {
+    padding: 20px;
+    font-size: 18px;
+    min-height: 100vh;
+    background-color: white;
+    color: #000;
+}
+
+.Cursonome {
+    color: #F58634;
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.barra_lateral {
+    width: 6px;
+    height: 55px;
+    background-color: #F58634;
+    border-radius: 2%;
+    margin-right: 10px;
+}
+
+.informacoesContainer {
+    margin-top: 20px;
+}
+
+.informacaoItem {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.coluninhas {
+    display: flex;
+    align-items: flex-start;
+    /* Alinha a barra lateral ao topo do título */
+    margin-right: 15px;
+}
+
+.Titulos_informações {
+    flex: 1;
+    color: #1f5a39;
+}
+
+.txt {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.descricao {
+    font-size: 1em;
+    margin-top: 0;
+}
+
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+.tabela th,
+.tabela td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+    background-color: #b5b5b5;
+}
+
+.tabela th {
+    background-color: #b5b5b5;
+}
+
+.colunaMaior {
+    width: 200px;
+}
+
+.imagem {
+    display: block;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin: 20px 0;
+
+}
+
+tbody tr .formGeral {
+    padding: 130px;
+    text-align: center;
+}
+
+tbody tr .formProf {
+    padding-bottom: 350px;
+    text-align: center;
+}
+
+thead tr .colunaMaior {
+    width: 150px;
+    text-align: center;
+}
+
+.imgProfs {
+    display: flex;
+    flex-direction: row;
+}
+
+.imgProfs .barra_lateralFoto {
+    width: 6px;
+    height: auto;
+    background-color: #F58634;
+    border-radius: 2%;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.imgProfs img {
+    width: 250px;
+    height: 300px;
+    border-radius: 5%;
+}
+
+.imgProfs h2 {
+    color: #1f5a39;
+}
+
+.h2PEspaço {
+    margin-bottom: 40px;
+}
+
+.h2PEspaçotop {
+    margin-top: 20px;
+}
